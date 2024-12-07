@@ -1,0 +1,32 @@
+.contenedor-completo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-general {
+    margin: 10px;
+    width: 90%;
+    height: 80vh;
+    background-color: rgb(169, 169, 169);
+}
+
+.contenedor-prin {
+    display: grid;
+    grid-template-columns: auto 60%;
+}
+
+.contenedor-img {
+    margin: 10px 10px 0 10px;
+}
+
+.contenedor-img .img {
+    background-color: rgb(121, 121, 121);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.contenedor-sec {
+    margin: 10px 0 0 10px;
+}
